@@ -1,0 +1,56 @@
+#mainBlock {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-left: 30px;
+}
+#instructions {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+}
+.header {
+  font-size: 40px;
+}
+.instruction {
+  font-size: 25px;
+}
+#game {
+  margin: 0 auto;
+  width: 300px;
+}
+#availableBlocks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+  border:1px solid black;
+  min-width: 100px;
+  min-height: 50px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  width: 350px;
+  height:
+}
+#submit {
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+  color: white;
+}
+.singleBlock {
+  border-style: solid;
+  border-width: 3px;
+  height: 50px;
+  width: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.thanks {
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}

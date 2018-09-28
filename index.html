@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <title>Andy Project</title>
+  </head>
+  <body>
+    <br>
+    <div id="mainBlock">
+      <div id="instructions">
+        <h1 class="header">Instructions:</h1>
+        <ul>
+          <li><h1 class="instruction">Click and drag the blocks to move them around the grid</h1></li>
+          <li><h1 class="instruction">To add blocks to the grid, drag them from the available blocks list into the grid</h1></li>
+          <li><h1 class="instruction">To remove blocks from the grid, drag them into the empty space in the available grid box</h1></li>
+          <li><h1 class="instruction">Refresh the page to reset your grid</h1></li>
+          <li><h1 class="instruction">Press submit when you are finished</h1></l1>
+        </ul>
+      </div>
+      <div id="game">
+        <div id="grid">
+
+        </div>
+        <br><br><br>
+        <div id="availableBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+        </div>
+        <br><br>
+        <form action="save-to-log.php" method="POST">
+          <input id="hiddenData" name="data" type="hidden" value=""></input>
+          <button id="submit" onclick="putDataOnPage()">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

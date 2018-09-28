@@ -1,0 +1,14 @@
+For color options, see https://www.w3schools.com/cssref/css_colors.asp
+
+To change grid size:
+  1. go to the grid array in script.js and adjust as desired
+  2. go to #grid in styles.css and change the width to be the number of blocks * 50
+        EX: if you want a grid with 5 blocks across, change the width to 250
+  3. also in #grid in styles.css, change grid-template-columns to reflect the number of columns you want
+        EX: if you want a grid with 5 blocks across, "grid-template-columns: 1fr 1fr 1fr 1fr 1fr"
+
+To change the blocks in the available blocks section:
+  1. go to the availableBlocks array in script.js and adjust as desired
+
+To change the instructions:
+  1. go to index.html and add/remove list items (<li>)
